@@ -5,7 +5,7 @@ class Photo extends Component {
     
     render() {
         return (
-            <div className={classes.Photo} onLoad={this.props.detail} onClick={this.props.clicked}>
+            <div className={classes.Photo} onLoad={this.props.detail}>
                 <div className={classes.Wrapper}>
                     <img src={this.props.img} />
                     <p>Name:{this.props.author}</p>
