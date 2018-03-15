@@ -1,0 +1,20 @@
+.Wrapper {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1200px;
+    min-height: 900px;
+    background: #152130;
+}
+.Wrapper h1 { 
+    padding: 25px 0;
+    text-align: center;
+}
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Error {
+    margin: 0 auto;
+    font-size: 22px;
+    color: orangered;
+}
